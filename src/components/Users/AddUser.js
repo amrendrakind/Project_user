@@ -17,6 +17,8 @@ const AddUser =(props) =>{
     const formAddUserHandler = (event)=>{
         event.preventDefault()
         console.log(enteredUserName,enteredAge )
+        setEnteredAge('')
+        setEnteredUserName('')
     }
     return (
         <Card className={classes.input}>
